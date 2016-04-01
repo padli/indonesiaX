@@ -1,0 +1,784 @@
+/*
+
+/-----indonesiaX-----\
+|----Khoirul Padli----|
+\www.indonesiax.co.id/
+
+*
+
+.tombol {
+    background-color: #2587C8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+
+.tombol2:hover {
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body {
+  margin: 0;
+  font-family: 'Droid Serif', serif;
+  background-color: #f4f4f4;
+  }
+
+a {
+  color: #000;
+}
+
+
+/* footer */
+ 
+
+
+#kaki {
+    background-image: url("/static/images/header.png");
+    min-height: 160px;
+    background-size: cover;
+    border-top: 4px solid #80c33f;
+    border-bottom: 4px solid #cccccc;
+}
+
+
+#kakicontent {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.item {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    width: 24.8%;
+    position: relative;
+    float: left;
+    height: 75px;
+}
+
+/* home header */
+
+.home>header .title>hgroup h1 {
+    text-shadow: none;
+    color: #ffffff !important ;
+    font-size: 20px !important;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* slide */
+.home>header {
+    background-color: #000000;
+    background-image: url("https://indonesiax.co.id/static/images/header.png");
+    min-height: 440px;
+}
+
+.home>header .outer-wrapper {
+
+    margin: 0 auto;
+    padding: 11px;
+
+}
+
+.home>header .title>hgroup h1 {
+    text-shadow: none;
+    color: #ffffff;
+    font-size: 34px;
+    font-size: 5.1vw;
+    margin-bottom: 30px;
+
+}
+
+
+
+.video-container {
+  padding-bottom: 20px;
+
+  overflow:hidden;
+
+
+
+
+}
+
+.video-container iframe {
+
+
+  width:480px;
+  height:280px;
+  margin-right: 20px;
+
+}
+
+.video-container div {
+  float: left;
+}
+
+.linkvideo {
+    transform: matrix(1, 0, 0, 1, -84, 0);
+    -webkit-transform: matrix(1, 0, 0, 1, -84, 0);
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white !important;
+    font-size: 18px;
+    line-height: 20px;
+    min-width: 168px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 168px;
+}
+
+/* slide akhir */
+
+html, body {
+    font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    line-height: 1em;
+    
+}
+
+/* header */
+
+.head {
+    border-bottom: 1px solid #919191;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+    background: #fff;
+
+    width: 100%;
+    height: 76px;
+
+}
+
+.head ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.head li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 0px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.head li a:hover,
+.head .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.head .logo {
+  position: relative !important ;
+  float: left !important ;
+  margin: 14px 39px 0 55px;
+    margin-right: 50px;
+
+}  
+/* menu */
+
+.head .menu {
+  position: relative;
+  margin-top: 10px;
+  list-style: none;
+  float: left !important;
+  margin-left: -300px;
+  max-height: 0px;
+  transition: max-height .2s ease-out;
+}
+
+
+.head .kanal {
+    /*  */
+}
+
+
+.head .kanan {
+    float: right;
+    margin-top: 5px;
+    list-style: none;
+    letter-spacing: 0 !important;
+}
+
+a:link, a:visited {
+    text-decoration: none !important;
+    color: #1478AB;
+    font: normal 1em/1em "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+    text-decoration: none;
+    -webkit-transition: all 0.1s linear 0s;
+    -moz-transition: all 0.1s linear 0s;
+    transition: all 0.1s linear 0s;
+}
+
+/* menu icon */
+/* hamburger menu */
+
+
+.head .icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 34px 19px;
+  position: relative;
+  user-select: none;
+
+}
+
+.head .icon .navicon {
+
+    background: #333;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 23px;
+}
+
+
+.header-padli-khoirul {
+    background-color: #
+}
+
+.head .icon .navicon:before,
+.head .icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.head .icon .navicon:before {
+  top: 5px;
+}
+
+.head .icon .navicon:after {
+  top: -5px;
+}
+
+
+/* menu btn */
+
+.head .btn {
+  display: none;
+
+}
+
+.head .btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.head .btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.head .btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.head .btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.head .btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.head .btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+
+.section {
+  overflow: hidden;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.section a {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.section a img {
+  width: 100%;
+  display: block;
+}
+
+.section a span {
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  font-size: 2em;
+  text-shadow: 1px 1px 0 #000;
+}
+
+
+.section-split a span {
+  display: none;
+}
+
+.section-split a:hover span {
+  display: block;
+}
+
+
+/* text responsive */
+.kontent {
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto 0;
+    padding: 40px 0;
+    max-width: 1180px;
+    min-width: 760px;
+    width: 100%;
+}
+
+
+/*  bagian tombol navigation bar  */
+
+  .tombol-register {
+            color: white !important;
+            border-radius: 4px !important;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important ;
+        }
+
+
+  .tombol-register {
+            background: #126f9a !important; /* this is a light blue */
+            background: #126f9a;
+			
+            box-shadow: 0 2px 1px 0 #0a4a67;
+            color: #fff;
+            list-style: none;
+            margin-right: 5px;
+            border: none;
+            padding: -13px 20px;
+            text-align: center;
+            text-shadow: none;
+            letter-spacing: 0;
+          }
+
+.tombol-login {
+            color: white !important;
+            border-radius: 4px !important;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important ;
+            }
+
+
+.tombol-login {
+            background: #126f9a !important; /* this is a light blue */
+            box-shadow: 0 2px 1px 0 #0a4a67;
+            background: #126f9a;
+            color: #fff;
+            
+            margin-left: 5px !important ;
+            list-style: none;
+            
+
+
+            border: none;
+            padding: -13px 20px;
+            text-align: center;
+            text-shadow: none;
+            letter-spacing: 0;
+
+          }
+
+
+
+
+
+/* menu responsive */
+@media (min-width: 1025px) {
+  .hidden-big{
+	  display: none !important;
+  }
+  .visible-big{
+	  display: block !important;
+  }
+  
+  .head .logo {
+    position: relative;
+
+  }
+  .head li {
+    float: left;
+  }
+  .head li a {
+    padding: 20px 30px;
+  }
+  .head .menu {
+    clear: none;
+    float: left;
+    max-height: none;
+  }
+  .head .icon {
+    display:none;
+
+  }
+  .section-split a {
+    width: 50%;
+  }
+
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .head .menu {
+    position: relative !important ;
+    margin-left: 20px;
+    
+  }
+}
+
+
+/* mobile responsive */
+@media only screen and (max-width : 480px) {
+	.hidden-small{
+		display: none !important;
+	}
+	.visible-xs{
+		display: block !important;
+	}
+    .tombol-register {
+      position: absolute !important ;
+      float: left;  
+    }
+
+   .tombol-login {
+      float: left !important ;
+
+    }
+      .head .menu {
+        margin-left: 0px;
+        margin-top: 1px;
+        float:center;
+    }
+      .head .kanal {
+        width: 100%;
+        float: right;
+      }
+
+    .video-container iframe {
+        width:100%;
+        height:100%;
+        margin-bottom: 15px;
+    }
+    .video-container div {
+
+      float: none !important;
+    }
+   .head ul {
+      width: 100%;
+    }
+    .head .logo {
+      position: absolute !important;
+      width: 100% !important;
+      float: none;
+      margin: 0 !important;
+      margin-top: 10px !important;
+
+
+    }
+
+    .head .icon {
+      z-index: 999 ;
+    }
+    .kontent {
+      width: 100%;
+      height: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 819px) {
+  .menu hidden-small visible-big {
+    display: none !important ;
+  }
+  .hiden-tablet {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: block !important ;
+  }
+}
+
+/* tablet responsive */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+
+  .hidden-small{
+    display: none !important;
+  }
+  .visible-xs{
+    display: block !important;
+  }
+    .tombol-register {
+      position: absolute !important ;
+      float: left;  
+    }
+
+     .tombol-register {
+      float: left !important ;    
+  }
+
+   .tombol-login {
+      float: left !important ;
+
+      
+    }
+
+    .head .menu {
+      
+      margin-left: 0px;
+      margin-top: 1px;
+      
+    }
+
+    .video-container div {
+
+      float: none !important;
+    }
+    .video-container iframe{
+      margin-bottom: 20px;
+
+    }
+
+     .head ul {
+      width: 100%;
+    }
+
+     .head .logo {
+      position: absolute !important;
+      width: 100% !important;
+      float: none;
+      margin: 0 !important;
+      margin-top: 10px !important;
+    }
+     .head .icon {
+      z-index: 999 ;
+    }
+
+}
+
+/* footer */
+
+
+#item {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    width: 24.8%;
+    position: relative;
+    float: left;
+    height: 75px;
+}
+
+
+    #footer {
+
+        width: 100%;
+        margin: auto;
+    }
+    .footerFloat {
+      margin-top: 30px;
+      width: 100%;
+    }
+
+     .iconfooter {
+       margin-top: 20px;float:left;margin-right:10px;
+    }
+      p.title12345 {
+      text-align: left;
+      padding-left: 75px;
+      line-height: 25px;
+      padding-right: 10px;
+      padding-top: 10px;
+    }
+
+    .garis {
+      border-right: 1px solid red;
+      margin-top: 10px;
+      padding-top: 1px;
+    }
+
+
+
+
+@media all and (min-width: 950px) {
+    #footer {
+
+        width: 980px;
+        margin: auto;
+    }
+    .footerFloat {
+        width: 25%;
+        float: left;
+        color: #fff;
+    }
+    .garis {
+        width: 10%;
+        float: left;
+    }
+}
+
+#wrapper {
+    background-image: url("https://www.indonesiax.co.id/static/images/header.png");
+    min-height: 160px;
+    background-size: cover;
+    border-top: 4px solid #80c33f;
+    border-bottom: 4px solid #cccccc;
+}
+
+/* untuk text about.html */
+
+p {
+    padding: 0 !important;
+    
+}
+
+h1 {
+    color: #3c3c3c;
+    font: normal 2em/1.4em "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.container, section.outside-app, .wrapper-account-settings, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections {
+    box-sizing: border-box;
+    margin: 0 auto 0;
+    max-width: 1180px;
+    min-width: 760px;
+    width: 100%;
+    
+}
+
+.content-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+.title-icon-how{
+	margin-top:20px;
+	padding-left:40px !important;
+}
+
+/** mobile */
+
+  @media only screen and (max-width : 480px) {
+	.title-icon-how{
+		margin-top:20px;
+		padding-left:40px !important;
+		font-size:16px !important;
+	}
+    p {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+    }
+    .content-wrapper {
+    width: 100% !important;
+    margin: 0 !important;
+    }
+
+    .container, section.outside-app, .wrapper-account-settings, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections {
+ 
+    max-width: 100%;
+    min-width: 60px;
+    width: 100% !important;
+    margin: 0 !important;
+    
+    }
+
+
+    h1 {
+      padding: 0px !important;
+      width: 100%;
+    }
+}
+
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+    p {
+
+        padding-left: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+     }
+    .content-wrapper {
+        width: 100%;
+    
+   }
+
+    .container, section.outside-app, .wrapper-account-settings, .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy, .view-profile .wrapper-profile-sections {
+ 
+    max-width: 100%;
+    min-width: 60px;
+    width: 100% !important;
+    margin: 0 !important;
+
+   h1 {
+
+      padding: 0 !important;
+      width: 100%;
+
+   }
+
+}
+
+
+.dashboard .my-courses .course .details .course-title a, .dashboard .my-courses .course .details .course-title span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.dashboard .my-courses .course .details .course-title a, .dashboard .my-courses .course .details .course-title span, .find-courses .wrapper-search-context .search-status-label {
+    font-size: 36px;
+    line-height: 53.28px;
+}
+
+
+
+
+/* clas font size
+.item {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    width: 24.8%;
+    position: relative;
+    float: left;
+    height: 75px;
+}
+
+img.img-how-to-use {
+    position: absolute;
+    left: 25px;
+    margin-top: 20px;
+}
+
+*/
+
+/* text responsive tentang kami */
