@@ -42,6 +42,7 @@ a {
  
 
 
+
 #kaki {
     background-image: url("/static/images/header.png");
     min-height: 160px;
@@ -220,7 +221,7 @@ html, body {
 
 a:link, a:visited {
     text-decoration: none !important;
-    color: #1478AB;
+    color: #36383A;
     font: normal 1em/1em "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.1s linear 0s;
@@ -420,7 +421,8 @@ a:link, a:visited {
   }
   
   .head .logo {
-    position: relative;
+    position: relative !important;
+    margin-left: 380px;
 
   }
   .head li {
@@ -445,17 +447,25 @@ a:link, a:visited {
 }
 
 
-@media only screen and (max-width: 1440px) {
-  .head .menu {
-    position: relative !important ;
-    margin-left: 20px;
-    
-  }
-}
+@media only sreen and (min-width: 1002px) and (max-width: 1024px) {
+  .head .logo {
+      position: absolute !important;
+      width: 100% !important;
+      float: left;
+      margin: 0 !important;
+      margin-top: 10px !important;
+ 
 
+
+    }
+}
 
 /* mobile responsive */
 @media only screen and (max-width : 480px) {
+    body{
+ overflow-x:hidden;
+}
+
 	.hidden-small{
 		display: none !important;
 	}
@@ -463,13 +473,13 @@ a:link, a:visited {
 		display: block !important;
 	}
     .tombol-register {
-      position: absolute !important ;
-      float: left;  
+      margin-top: -43px !important ;
+      float: right;
     }
 
    .tombol-login {
-      float: left !important ;
-
+      position: absolute;
+      float: none;
     }
       .head .menu {
         margin-left: 0px;
@@ -496,7 +506,7 @@ a:link, a:visited {
     .head .logo {
       position: absolute !important;
       width: 100% !important;
-      float: none;
+      float: left;
       margin: 0 !important;
       margin-top: 10px !important;
 
@@ -515,6 +525,10 @@ a:link, a:visited {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 819px) {
+
+    body{
+ overflow-x:hidden;
+}
   .menu hidden-small visible-big {
     display: none !important ;
   }
@@ -529,27 +543,25 @@ a:link, a:visited {
 /* tablet responsive */
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
+    body{
+ overflow-x:hidden;
+}
+  
   .hidden-small{
     display: none !important;
   }
   .visible-xs{
     display: block !important;
   }
-    .tombol-register {
-      position: absolute !important ;
-      float: left;  
-    }
-
      .tombol-register {
-      float: left !important ;    
-  }
+      margin-top: -30px !important ;
+      float: right;
+    }
 
    .tombol-login {
-      float: left !important ;
-
-      
+      position: absolute;
+      float: none;
     }
-
     .head .menu {
       
       margin-left: 0px;
@@ -585,7 +597,22 @@ a:link, a:visited {
 
 /* footer */
 
+@media only screen and (min-width: 998px) and (max-width: 1644px)  {
+  .tombol-register {
+     
+      margin-top:20px;
+      margin-right:100px !important ;
+    }
 
+   .tombol-login {
+     
+    }
+    .head .logo {
+      
+      margin-left: 100px !important;
+    }
+}
+ 
 #item {
     font-size: 24px;
     line-height: 32px;

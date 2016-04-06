@@ -90,28 +90,38 @@
     <a class="nav-skip" href="#content">Skip to main content</a>
 
 
+
 <!-- new header -->
   <header class="head" class="global">
     <nav class="#" aria-label="Global">
 
       <input class="btn" type="checkbox" id="btn" />
-        <label class="icon" for="btn"><span class="navicon"></span></label>
-          <h1 class="logo" style="text-align:left">
+        <label class="icon" for="btn" style="float:left !important ;" ><span class="navicon"></span></label>
+           <h1 class="logo">
             <a href="/">
-              <img src="https://indonesiax.co.id/static/images/default-theme/logo.png" alt="IndonesiaX" class="visible-xs hidden-big" style="float:left;padding-left:15px"/>
+              <img src="https://indonesiax.co.id/static/images/default-theme/logo.png" alt="IndonesiaX"/>
             </a>
           </h1>
   
-    <ul class="menu hidden-small visible-big" style="margin-left:-40px">
-          <li class="kanal" >
-            <a href="#">Finding Courses</a>
+          
+ <ul class="menu visible-xs hidden-big">
+
+          <li class="kanal visible-big" style="border-bottom:1px solid #8a8c8f;">
+            <a href="#">Finding Courses </a>
           </li>
-          <li class="kanal" >
-            <a href="#">Tentang IndonesiaX</a>
-          </li>        
+          <li class="kanal visible-big" style="border-bottom:1px solid #8a8c8f;" >
+            <a href="#">Tentang IndonesiaX </a>
+          </li>
+               
+      <li class="kanal" >
+            <a href="https://indonesiax.co.id/login"><button class="tombol-login" style="margin-top:10px;position:relative;width:40%;float: left!important;padding:0%;">Login</button></a>
+          </li>           
+      <li class="kanal">
+            <a href="https://indonesiax.co.id/login"><button class="tombol-register" style="margin-top:-30px;position:relative;width:40%;float: right!important;padding:0%;">Register</button></a>
+      </li>
     </ul>
-	<ul class="menu visible-xs hidden-big">
-          <li class="kanal">
+<ul class="menu hidden-small visible-big" style="margin-left:-40px">
+          <li class="kanal" >
             <a href="#">Finding Courses</a>
           </li>
           <li class="kanal" >
@@ -119,15 +129,10 @@
           </li>        
     </ul>
 	<div class="hidden-small visible-big">
-	 <a href="https://indonesiax.co.id/register" style="float:right"> <button class="tombol-register" style="margin-top:20px;margin-right:10px"> Register</button></a>
-           <a href="https://indonesiax.co.id/login" style="float:right"><button style="margin-top:20px;margin-right:10px" class="tombol-login">Login</button></a>
+	 <a href="https://indonesiax.co.id/register" style="float:right"> <button class="tombol-register" style="margin-top:20px;margin-right:400px" > Register</button></a>
+   <a href="https://indonesiax.co.id/login" style="float:right"><button style="margin-top:20px;margin-right:10px" class="tombol-login">Login</button></a>
    </div>
-   <ul class="kanan visible-xs hidden-big" style="padding:5px !important;margin-top:-5px;border-top:solid 1px">
-        
-          <a href="https://indonesiax.co.id/login"><button class="tombol-login" style="position:relative;left:10px">Login</button></a>
-          <a href="https://indonesiax.co.id/register"> <button class="tombol-register" style="margin-left:20px"> Register</button></a>
-    
-    </ul>
+   
      
    
 
@@ -631,38 +636,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 </section>
 
 <!-- footer baru -->
-
-
-<div id="wrapper"> <!-- content -->
-
-
-    <div id="footer">
-
-         <div class="footerFloat">
-           
-            <img class="iconfooter hidden-small visible-big" src="https://www.indonesiax.co.id/static/images/search.png">
-            <p class="title-how-to-use title-icon-how"><img class="iconfooter hidden-big visible-xs" style="margin-top:0" src="https://www.indonesiax.co.id/static/images/search.png">IndonesiaX</p>
-        </div>
-
-     
-        <div class="footerFloat">
-          
-            <img class="iconfooter hidden-small visible-big" src="https://www.indonesiax.co.id/static/images/search.png">
-            <p class="title-how-to-use title-icon-how"><img class="iconfooter hidden-big visible-xs" style="margin-top:0" src="https://www.indonesiax.co.id/static/images/search.png">Pilih Kursus &amp; Daftar Gratis</p>
-        </div>
-        <div class="footerFloat">
-           
-            <img class="iconfooter hidden-small visible-big" src="https://www.indonesiax.co.id/static/images/video.png">
-            <p class="title-how-to-use title-icon-how"><img class="iconfooter hidden-big visible-xs" style="margin-top:0" src="https://www.indonesiax.co.id/static/images/video.png">Lihat Video &amp; Materi</p>
-        </div>
-        <div class="footerFloat">
-         
-            <img class="iconfooter hidden-small visible-big" src="https://www.indonesiax.co.id/static/images/doc-check.png">
-            <p class="title-how-to-use title-icon-how"><img class="iconfooter hidden-big visible-xs" style="margin-top:0" src="https://www.indonesiax.co.id/static/images/doc-check.png">Ikuti Tes &amp; Dapatkan Sertifikat</p>
-        </div>
-		<div class="visible-xs hidden-big" style="height:50px"></div>
-    </div>
-</div> 
+<style type="text/css">
+  body{
+ overflow-x:hidden !important;
+}
+</style>
 
 
 <div class="wrapper wrapper-footer">
@@ -732,16 +710,16 @@ IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open
 </div>
 <div id='copyline'>
 <p>
-  <a class='flink' href='/about'>Tentang Kami</a><span class='separ1'> - </span>
-  <a class='flink' href='/news'>Kabar Terbaru</a><span class='separ1'> - </span>
-  <a class='flink' href='/jobs'>Karir</a><span class='separ1'> - </span>
-  <a class='flink' href='/faq'>PSD</a><span class='separ1'> - </span>
-  <a class='flink' href='/contact'>Kontak</a></p>
+  <a class='flink' href='about.html'>Tentang Kami</a><span class='separ1'> - </span>
+  <a class='flink' href='#'>Kabar Terbaru</a><span class='separ1'> - </span>
+  <a class='flink' href='jobs.html'>Karir</a><span class='separ1'> - </span>
+  <a class='flink' href='faq.html'>PSD</a><span class='separ1'> - </span>
+  <a class='flink' href='contact.html'>Kontak</a></p>
 <div style="float:left">
-<a class='flink' href='/tos'>Ketentuan Layanan</a><span class='separ1'> - </span>
-<a class='flink' href='/honor'>Kode Etik</a><span class='separ1'> - </span>
-<a class='flink' href='/privacy'>Kebijakan Privasi</a><span class='separ1'> - </span>
-<a class='flink' href='/akses'>Akses untuk Semua</a>
+<a class='flink' href='tos.html'>Ketentuan Layanan</a><span class='separ1'> - </span>
+<a class='flink' href='honor.html'>Kode Etik</a><span class='separ1'> - </span>
+<a class='flink' href='privacy.html'>Kebijakan Privasi</a><span class='separ1'> - </span>
+<a class='flink' href='akses.html'>Akses untuk Semua</a>
 </div>
 <div class="visible-xs hidden-big" style="height:20px;clear:both"></div>
 <div style="float:right">

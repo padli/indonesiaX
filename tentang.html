@@ -124,28 +124,72 @@
 
 
 
-  
 <!-- new header -->
   <header class="head" class="global">
     <nav class="#" aria-label="Global">
 
-<!--//* hamburger menu *// -->
       <input class="btn" type="checkbox" id="btn" />
-        <label class="icon" for="btn"><span class="navicon"></span></label>
-          <h1 class="logo">
+        <label class="icon" for="btn" style="float:left !important ;" ><span class="navicon"></span></label>
+            <h1 class="logo">
             <a href="/">
               <img src="https://indonesiax.co.id/static/images/default-theme/logo.png" alt="IndonesiaX"/>
             </a>
           </h1>
-  
-    <ul class="menu">
-          <li>
-            <a href="#">Finding Courses</a>
+          
+ <ul class="menu visible-xs hidden-big">
+
+          <li class="kanal visible-big" style="border-bottom:1px solid #8a8c8f;">
+            <a href="#">Finding Courses </a>
           </li>
-          <li>
-          <a href="#">Tentang IndonesiaX</a>
-          </li>
+          <li class="kanal visible-big" style="border-bottom:1px solid #8a8c8f;" >
+            <a href="#">Tentang IndonesiaX </a>
+          </li>     
+      <li class="kanal" >
+            <a href="https://indonesiax.co.id/login"><button class="tombol-login" style="margin-top:10px;position:relative;width:40%;float: left!important;padding:0%;">Login</button></a>
+          </li>           
+      <li class="kanal">
+            <a href="https://indonesiax.co.id/login"><button class="tombol-register" style="margin-top:-30px;position:relative;width:40%;float: right!important;padding:0%;">Register</button></a>
+      </li>
     </ul>
+
+  <div class="hidden-small visible-big">
+   <a href="https://indonesiax.co.id/register" style="float:right"> <button class="tombol-register" style="margin-top:20px;margin-right:300px" > Register</button></a>
+   <a href="https://indonesiax.co.id/login" style="float:right"><button style="margin-top:20px;margin-right:10px" class="tombol-login">Login</button></a>
+   </div>
+   
+     
+   
+
+<style type="text/css">
+  input[type="submit"], input[type="button"], button, .button {
+    border-radius: 3px;
+    
+    color: #fff;
+    display: inline-block;
+    font-size: inherit;
+    font-weight: bold;
+   
+    padding: 7px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #00003e;
+    font: normal 1.2rem/1.6rem "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+    letter-spacing: 1px;
+    padding: 4px 20px;
+    text-transform: uppercase;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+</style> 
 
   </nav>
 </header>
@@ -196,9 +240,18 @@ Direktur Paramount Enterprise Budianto Andreas Nawawi
   <footer id="footer-openedx"
   >
 
-<div id='fcol1'>
+<div id='fcol1' class="hidden-small visible-big">
 
-<div id='flogo'><img src='https://www.indonesiax.co.id/static/images/default-theme/logo.png'></div>
+<div id='flogo'><img src='https://indonesiax.co.id/static/images/default-theme/logo.png'></div>
+<p>
+IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open Online Course (MOOC) dari universitas dan institusi terbaik. Semua kursus di IndonesiaX dapat diikuti dengan gratis. Anda juga bisa mendapatkan sertifikat yang dapat membantu meningkatkan karir dan kompetensi. Ada beragam topik yang tersedia di IndonesiaX, baik dari dunia akademis maupun keterampilan hidup.
+</p>
+
+
+</div>
+<div id='fcol1' class="hidden-big visible-small" style="width:100%">
+
+<div id='flogo'><img src='https://indonesiax.co.id/static/images/default-theme/logo.png'></div>
 <p>
 IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open Online Course (MOOC) dari universitas dan institusi terbaik. Semua kursus di IndonesiaX dapat diikuti dengan gratis. Anda juga bisa mendapatkan sertifikat yang dapat membantu meningkatkan karir dan kompetensi. Ada beragam topik yang tersedia di IndonesiaX, baik dari dunia akademis maupun keterampilan hidup.
 </p>
@@ -206,12 +259,12 @@ IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open
 
 </div>
 
-<div id='fcol2'>
-<div class='socialb'><a href='https://instagram.com/IndonesiaX_News' target='_blank'><img src='https://www.indonesiax.co.id/static/images/instagram.png'></a></div>
-<div class='socialb'><a href='https://www.youtube.com/channel/UCP8HRDGVnb4JsVwmpqI2R5A' target='_blank'><img src='https://www.indonesiax.co.id/static/images/youtube.png'></a></div>
-<div class='socialb'><a href='https://twitter.com/IndonesiaX_News'  target='_blank'><img src='https://www.indonesiax.co.id/static/images/twitter.png'></a></div>
-<div class='socialb'><a href='https://www.linkedin.com/company/indonesiax' target='_blank'><img src='https://www.indonesiax.co.id/static/images/linkedin.png'></a></div>
-<div class='socialb'><a href='https://www.facebook.com/IndonesiaXNews' target='_blank'><img src='https://www.indonesiax.co.id/static/images/fb.png'></a></div>
+<div class="hidden-small visible-big" id='fcol2'>
+<div class='socialb'><a href='https://instagram.com/IndonesiaX_News' target='_blank'><img src='https://indonesiax.co.id/static/images/instagram.png'></a></div>
+<div class='socialb'><a href='https://www.youtube.com/channel/UCP8HRDGVnb4JsVwmpqI2R5A' target='_blank'><img src='https://indonesiax.co.id/static/images/youtube.png'></a></div>
+<div class='socialb'><a href='https://twitter.com/IndonesiaX_News'  target='_blank'><img src='https://indonesiax.co.id/static/images/twitter.png'></a></div>
+<div class='socialb'><a href='https://www.linkedin.com/company/indonesiax' target='_blank'><img src='https://indonesiax.co.id/static/images/linkedin.png'></a></div>
+<div class='socialb'><a href='https://www.facebook.com/IndonesiaXNews' target='_blank'><img src='https://indonesiax.co.id/static/images/fb.png'></a></div>
 
 
 <div id='powe'>
@@ -227,19 +280,41 @@ IndonesiaX merupakan organisasi non-profit yang menawarkan platform Massive Open
       </p>
     </div>
 </div>
+<div class="hidden-big visible-small" id='fcol2' style="width:100%;padding-top:10px">
+<div class='socialb'><a href='https://instagram.com/IndonesiaX_News' target='_blank'><img src='https://indonesiax.co.id/static/images/instagram.png'></a></div>
+<div class='socialb'><a href='https://www.youtube.com/channel/UCP8HRDGVnb4JsVwmpqI2R5A' target='_blank'><img src='https://indonesiax.co.id/static/images/youtube.png'></a></div>
+<div class='socialb'><a href='https://twitter.com/IndonesiaX_News'  target='_blank'><img src='https://indonesiax.co.id/static/images/twitter.png'></a></div>
+<div class='socialb'><a href='https://www.linkedin.com/company/indonesiax' target='_blank'><img src='https://indonesiax.co.id/static/images/linkedin.png'></a></div>
+<div class='socialb'><a href='https://www.facebook.com/IndonesiaXNews' target='_blank'><img src='https://indonesiax.co.id/static/images/fb.png'></a></div>
+
+
+<div id='powe' style="margin-bottom:30px">
+      <p style="text-align:right">
+           <img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag-dark.png" alt="Powered by Open edX" width="140" style="position:relative;float:inherit;">
+        <br><br>
+          <a href="https://itunes.apple.com/ke/app/indonesiax/id1053203885?mt=8" target='_blank' class="app-link external">
+            <img alt="Download the IndonesiaX mobile app from the Apple App Store" src="https://d37djvu3ytnwxt.cloudfront.net/static/images/app/app_store_badge_135x40.d0558d910630.svg">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=org.indonesiax.mobile" target='_blank' class="app-link external">
+            <img alt="Download the IndonesiaX mobile app from Google Play" height="40px" src="https://d37djvu3ytnwxt.cloudfront.net/static/images/app/google_play_badge_45.144f2dd05129.png">
+          </a>
+      </p>
+    </div>
+</div>
 <div id='copyline'>
 <p>
-  <a class='flink' href='/about'>Tentang Kami</a><span class='separ1'> - </span> 
-  <a class='flink' href='/news'>Kabar Terbaru</a><span class='separ1'> - </span>
-  <a class='flink' href='/jobs'>Karir</a><span class='separ1'> - </span>
-  <a class='flink' href='/faq'>PSD</a><span class='separ1'> - </span>
-  <a class='flink' href='/contact'>Kontak</a></p>
+  <a class='flink' href='about.html'>Tentang Kami</a><span class='separ1'> - </span>
+  <a class='flink' href='#'>Kabar Terbaru</a><span class='separ1'> - </span>
+  <a class='flink' href='jobs.html'>Karir</a><span class='separ1'> - </span>
+  <a class='flink' href='faq.html'>PSD</a><span class='separ1'> - </span>
+  <a class='flink' href='contact.html'>Kontak</a></p>
 <div style="float:left">
-<a class='flink' href='/tos'>Ketentuan Layanan</a><span class='separ1'> - </span>
-<a class='flink' href='/honor'>Kode Etik</a><span class='separ1'> - </span>
-<a class='flink' href='/privacy'>Kebijakan Privasi</a><span class='separ1'> - </span>
-<a class='flink' href='/akses'>Akses untuk Semua</a>
+<a class='flink' href='tos.html'>Ketentuan Layanan</a><span class='separ1'> - </span>
+<a class='flink' href='honor.html'>Kode Etik</a><span class='separ1'> - </span>
+<a class='flink' href='privacy.html'>Kebijakan Privasi</a><span class='separ1'> - </span>
+<a class='flink' href='akses.html'>Akses untuk Semua</a>
 </div>
+<div class="visible-xs hidden-big" style="height:20px;clear:both"></div>
 <div style="float:right">
 <span class='copyr'>
 Hak Cipta &copy; 2015 PT Education Technology Indonesia
@@ -249,10 +324,9 @@ Hak Cipta &copy; 2015 PT Education Technology Indonesia
 
 </div>
 
-        
+
 
   </div>
-
   
   <script type="text/javascript" src="https://www.indonesiax.co.id/static/js/vendor/noreferrer.aa62a3e70ffa.js" charset="utf-8"></script>
 <!--- <script type="text/javascript" src="/static/js/jquery-1.9.1.min.js"></script> -->

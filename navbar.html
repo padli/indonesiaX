@@ -3,255 +3,140 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="">
+  <title>INDONESIAX</title>
+  <link rel="stylesheet" href="style1.css">
 </head>
-<body>
-  <style type="text/css">
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-body {
-  background-color: #f5f5f5;
-  color: #333;
-  font-size: 14px;
-  font-family: Verdana, Arial, sans-serif;
-  line-height: 20px;
-}
-a {
-  text-decoration: none;
-  -webkit-transition: all 0.3s linear 0s;
-  transition: all 0.3s linear 0s;
-}
-.area {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media (min-width: 768px) {
-  .area {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .area {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .area {
-    width: 1140px;
-  }
-}
-.navbar-component {
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
-}
-.navbar-component > .navbar {
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.navbar > .brand {
-  display: block;
-  font-size: 16px;
-  color: #777;
-  margin: 22px;
-}
-.navbar > .toggle {
-  outline: none;
-  border: 0;
-  display: inline-block;
-  background-color: transparent;
-  background-image: none;
-  vertical-align: middle;
-  text-align: center;
-  white-space: nowrap;
-  cursor: pointer;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  padding: 22px;
-}
-@media (min-width: 768px) {
-  .navbar > .toggle {
-    display: none;
-  }
-}
-.navbar > .toggle > .icon {
-  position: relative;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-.navbar > .toggle > .icon,
-.navbar > .toggle > .icon:before,
-.navbar > .toggle > .icon:after {
-  display: block;
-  width: 24px;
-  height: 3px;
-  -webkit-transition: background-color 0.3s linear, -webkit-transform 0.3s linear;
-  transition: background-color 0.3s linear, -webkit-transform 0.3s linear;
-  transition: background-color 0.3s linear, transform 0.3s linear;
-  transition: background-color 0.3s linear, transform 0.3s linear, -webkit-transform 0.3s linear;
-  background-color: #555555;
-}
-.navbar > .toggle > .icon:before,
-.navbar > .toggle > .icon:after {
-  position: absolute;
-  content: "";
-}
-.navbar > .toggle > .icon:before {
-  top: -8px;
-}
-.navbar > .toggle > .icon:after {
-  top: 8px;
-}
-.navbar > .toggle.-active > .icon {
-  background-color: transparent;
-}
-.navbar > .toggle.-active > .icon:before {
-  -webkit-transform: translateY(8px) rotate(45deg);
-          transform: translateY(8px) rotate(45deg);
-}
-.navbar > .toggle.-active > .icon:after {
-  -webkit-transform: translateY(-8px) rotate(-45deg);
-          transform: translateY(-8px) rotate(-45deg);
-}
-.navbar > .list {
-  float: left;
-  display: none;
-  -webkit-flex-flow: row nowrap;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  white-space: nowrap;
-}
-@media (min-width: 768px) {
-  .navbar > .list {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-@media (max-width: 768px) {
-  .navbar > .list {
-    position: fixed;
-    top: 64px;
-    left: 0;
-    width: 100%;
-    overflow-y: hidden;
-    overflow-x: auto;
-    border-top: 1px solid #ddd;
-    background-color: #fff;
-  }
-}
-.navbar > .list.-on {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-.navbar > .list > .item {
-  display: block;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-  height: 64px;
-  line-height: 64px;
-  padding-left: 22px;
-  padding-right: 22px;
-  text-transform: uppercase;
-  color: #555;
-  font-size: 14px;
-}
-.navbar > .list > .item.-link {
-  line-height: 68px;
-  color: #555;
-  border-bottom: 4px solid transparent;
-}
-.navbar > .list > .item.-link.-active,
-.navbar > .list > .item.-link:hover,
-.navbar > .list > .item.-link:focus {
-  color: #333;
-  border-bottom-color: #673ab7;
-}
+<header id='site-header'>
+    <div class='container'>
+        <section id='branding'>
+            <a href='/' title='Sequence'>
+                <img id="logo" width="176" height="34" alt="Sequence" src="/images/logo.svg" />
+            </a>
+        </section>
+        <nav id='primary-nav'>
+            
+  
+      <ul>
+    
+      <li><a href="/" class="active">Home</a></li>
+    
+      <li><a href="/case-studies/" class="">Our Work</a></li>
+    
+      <li><a href="/what-we-do/" class="">What We Do</a></li>
+    
+      <li><a href="/blog/" class="">Blog</a></li>
+    
+      <li><a href="/jobs/" class="">Jobs</a></li>
+    
+        
+            <li class="contact__link">
+                <a id="btnContact" href="#" class=" ">Contact</a>
+                <div class="contact-indicator"></div>
+            </li>
+      </ul>
+    
 
-  </style>
-      <!-- Component -->
-    <div class="navbar-component">
-      <!-- Class `area` is a container -->
-      <div class="navbar area">
-        <!-- Logo -->
-        <a href="#" class="brand"><img src="https://wwww.indonesiax.co.id/static/images/default-theme/logo.png" alt="IndonesiaX"/></a>
-       
-        <!-- List of links -->
-        <nav role="navigation" id="navigation" class="list">
-          <a href="#" class="item -link">FINDING</a>
-          <a href="#" class="item -link">ABOUT US</a>
-          <span class="item"><i class="fa fa-search"></i></span>
+
         </nav>
-        <!-- Button to toggle the display menu  -->
-        <button data-collapse data-target="#navigation" class="toggle">
-          <!-- Hamburger icon -->
-          <span class="icon"></span>
-        </button>
-      </div>
     </div>
-<script type="text/javascript">
-  (function() {
 
-  // Definition of caller element
-  var getTriggerElement = function(el) {
-    var isCollapse = el.getAttribute('data-collapse');
-    if (isCollapse !== null) {
-      return el;
-    } else {
-      var isParentCollapse = el.parentNode.getAttribute('data-collapse');
-      return (isParentCollapse !== null) ? el.parentNode : undefined;
-    }
-  };
 
-  // A handler for click on toggle button
-  var collapseClickHandler = function(event) {
-    var triggerEl = getTriggerElement(event.target);
-    // If trigger element does not exist
-    if (triggerEl === undefined) {
-      event.preventDefault();
-      return false;
-    }
+<div id='mini-contact-form'>
+    <div class="container">
+        <div class="mini-contact__inner">
+            <div class="mini-contact__form">
+                <div>
+                    <h3>Leave a note for us here so we can get in touch:</h3>
+                </div>
+                <div class='name field'>
+                    <label for='name'>Name</label>
+                    <input id='name' name='name' placeholder='Your name' type='text' required />
+                </div>
+                <div class='email field'>
+                    <label for='email'>Email Address</label>
+                    <input id='email' name='email' placeholder='Your email' type='email' required />
+                </div>
+                <div class='tel field'>
+                    <label for='tel'>Phone number</label>
+                    <input id='tel' name='tel' placeholder='Your phone (optional)' type='text' />
+                </div>
+                <div class='select field area-select'>
+                    <label for='mini_areaselect'>
+                        What area of our agency are you interested in?
+                    </label>
+                    <select name="ctl04$ctl01$mini_areaselect" id="mini_areaselect" required="">
+  <option value="jobs">I would like to apply for a job</option>
+  <option value="project">I&#39;d like to discuss a project idea</option>
+  <option value="stuff">I&#39;d like to talk about something else</option>
+  <option value="default">-- Select One --</option>
 
-    // If the target element exists
-    var targetEl = document.querySelector(triggerEl.getAttribute('data-target'));
-    if (targetEl) {
-      triggerEl.classList.toggle('-active');
-      targetEl.classList.toggle('-on');
-    }
-  };
+</select>
+                </div>
+                <section id='message-content'>
+                    
+                    <div class='field message'>
+                        <label for='message'>How can we help?</label>
+                        <textarea id='message' name='message' required></textarea>
+                    </div>
+                </section>
+                <div class="buttons">
+                    <input type='button' id="sendmessage" value='Send message' />
+                </div>
+            </div>
+            <div>
+                <div id="minicontact-submit-success" style='display: none;'>
+                    <h4>Thanks!</h4>
+                    <p>One of our staff members will be in touch.</p>
+                </div>
+                <div id="minicontact-submit-failure" style='display: none;'>
+                    <h4>Sorry!</h4>
+                    <p>An error occurred</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="mini-contact__addresses">
+                <a href="mailto:enquiry@sequence.co.uk" class="mini-contact__email" title="Email us">enquiry@sequence.co.uk</a>
+                <div class="mini-contact__list">
+                    
+<section class='widget' id='contact-widget'>
 
-  // Delegated event
-  document.addEventListener('click', collapseClickHandler, false);
+    
+            <div class='vcard' id="mini_London">
+                <h4><a href="/contact" class="vcard__location fn org">London</a></h4>
+                <a class='vcard__tel tel' href="tel:+44 (0)207 043 4555">+44 (0)207 043 4555</a>
+                <div class='vcard__adr adr' id='mini_add_london'>
+                    
+                    <div id="ctl04_ctl01_ctl01_AddressesRepeater_addressLine2Div_0" class="vcard__street street-address">19 Eastbourne Terrace</div>
+                    <div id="ctl04_ctl01_ctl01_AddressesRepeater_addressLine3Div_0" class="vcard__locality locality">London</div>
+                    <div id="ctl04_ctl01_ctl01_AddressesRepeater_addressPostCodeDiv_0" class="vcard__postcode postal-code">W2 6LG</div>
+                </div>
+            </div>
+        
+            <div class='vcard' id="mini_Cardiff">
+                <h4><a href="/contact" class="vcard__location fn org">Cardiff</a></h4>
+                <a class='vcard__tel tel' href="tel:+44 (0)29 2025 2555">+44 (0)29 2025 2555</a>
+                <div class='vcard__adr adr' id='mini_add_cardiff'>
+                    
+                    <div id="ctl04_ctl01_ctl01_AddressesRepeater_addressLine2Div_1" class="vcard__street street-address">Porth Teigr Way</div>
+                    <div id="ctl04_ctl01_ctl01_AddressesRepeater_addressLine3Div_1" class="vcard__locality locality">Cardiff</div>
+                    <div id="ctl04_ctl01_ctl01_AddressesRepeater_addressPostCodeDiv_1" class="vcard__postcode postal-code">CF10 4GA</div>
+                </div>
+            </div>
+        
 
-})(document, window);
-</script>
+</section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</header>
+
+<body>
+  
 </body>
 </html>
