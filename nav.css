@@ -628,14 +628,17 @@ a:link, a:visited {
 
         width: 100%;
         margin: auto;
+         overflow-x:hidden !important;
     }
     .footerFloat {
       margin-top: 30px;
       width: 100%;
+       overflow-x:hidden !important;
     }
 
      .iconfooter {
        margin-top: 20px;float:left;margin-right:10px;
+        overflow-x:hidden !important;
     }
       p.title12345 {
       text-align: left;
@@ -659,11 +662,13 @@ a:link, a:visited {
 
         width: 980px;
         margin: auto;
+         overflow-x:hidden !important;
     }
     .footerFloat {
         width: 25%;
         float: left;
         color: #fff;
+         overflow-x:hidden !important;
     }
     .garis {
         width: 10%;
